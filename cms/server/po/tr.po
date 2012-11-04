@@ -1,0 +1,338 @@
+# Italian translations for PACKAGE package.
+# Copyright (C) 2011 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Cihad OGE <cihadoge@gmail.com>, 2011.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-11-11 19:07+0200\n"
+"PO-Revision-Date: 2011-11-11 19:11+0100\n"
+"Last-Translator: Cihad OGE <cihadoge@gmail.com>\n"
+"Language-Team: Turkish\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ContestWebServer.py:418
+msgid "Question received"
+msgstr "Sorunuz Alındı"
+
+#: ContestWebServer.py:419
+msgid "Your question has been received, you will be notified when the it will be answered."
+msgstr "Sorunuz alındı. Sorunuz cevaplandığında size bir bildirim gelecektir. "
+
+#: ContestWebServer.py:546
+msgid "Submission received"
+msgstr "Çözüm yüklendi"
+
+#: ContestWebServer.py:547
+msgid "Your submission has been received and is currently being evaluated."
+msgstr "Çözümünüz yüklendi ve değerlendirmeye alındı. Lütfen bekleyiniz"
+
+#: ContestWebServer.py:596
+msgid "Token request discarded"
+msgstr "Uso del gettone rifiutato "
+
+#: ContestWebServer.py:597
+msgid "Your request has been discarded because you have no tokens available."
+msgstr "La tua richiesta è stata rifiutata perché non hai gettoni disponibili."
+
+#: ContestWebServer.py:613
+msgid "Token request received"
+msgstr "Richiesta di uso del gettone ricevuta"
+
+#: ContestWebServer.py:614
+msgid "Your request has been received and applied to the submission."
+msgstr "La tua richiesta è stata ricevuta e applicata alla sottoposizione."
+
+#: templates/contest/base.html:46
+msgid "Overview"
+msgstr "Genel Bilgiler"
+
+#: templates/contest/base.html:49
+#: templates/contest/instructions.html:4
+msgid "Instructions"
+msgstr "İçindekiler"
+
+#: templates/contest/base.html:53
+#: templates/contest/communication.html:3
+msgid "Communication"
+msgstr "Soru sorma"
+
+#: templates/contest/base.html:58
+msgid "Tasks:"
+msgstr "Sorular:"
+
+#: templates/contest/base.html:70
+msgid "Failed to log in."
+msgstr "Giriş yapılamadı."
+
+#: templates/contest/base.html:75
+msgid "Username:"
+msgstr "Kullanıcı Adı:"
+
+#: templates/contest/base.html:79
+msgid "Password:"
+msgstr "Şifre:"
+
+#: templates/contest/base.html:82
+msgid "Sign in"
+msgstr "Giriş"
+
+#: templates/contest/base.html:86
+msgid "Time left:"
+msgstr "Kalan Süre:"
+
+#: templates/contest/base.html:88
+msgid "logout"
+msgstr "çıkış"
+
+#: templates/contest/communication.html:5
+msgid "Submit a question"
+msgstr "Soru sor"
+
+#: templates/contest/communication.html:8
+msgid "Subject:"
+msgstr "Konu:"
+
+#: templates/contest/communication.html:10
+msgid "Text:"
+msgstr "Mesaj:"
+
+#: templates/contest/communication.html:12
+msgid "Ask question"
+msgstr "Soru sor"
+
+#: templates/contest/communication.html:17
+msgid "Questions"
+msgstr "Sorular"
+
+#: templates/contest/communication.html:28
+msgid "Reply."
+msgstr "Cevap yaz."
+
+#: templates/contest/communication.html:31
+msgid "Please wait for reply."
+msgstr "Cevap yazmak için bekleyin."
+
+#: templates/contest/communication.html:39
+msgid "No questions."
+msgstr "Soru bulunamadı."
+
+#: templates/contest/communication.html:45
+msgid "Messages"
+msgstr "Mesajlar"
+
+#: templates/contest/communication.html:61
+msgid "No messages."
+msgstr "Mesaj bulunamadı."
+
+#: templates/contest/instructions.html:5
+msgid "General"
+msgstr "Genel"
+
+#: templates/contest/instructions.html:7
+msgid "A lot of instructions about the contest."
+msgstr "Molte informazioni sulla gara."
+
+#: templates/contest/instructions.html:12
+msgid "Compilation"
+msgstr "Compilazione"
+
+#: templates/contest/instructions.html:15
+msgid "C:"
+msgstr "C:"
+
+#: templates/contest/instructions.html:16
+msgid "C++:"
+msgstr "C++:"
+
+#: templates/contest/instructions.html:17
+msgid "Pascal:"
+msgstr "Pascal:"
+
+#: templates/contest/instructions.html:23
+msgid "Documentation"
+msgstr "Dökümanlar"
+
+#: templates/contest/instructions.html:26
+msgid "Standard Template Library"
+msgstr "STL Kütüphanesi"
+
+#: templates/contest/overview.html:6
+msgid "Contest overview"
+msgstr "Sınav"
+
+#: templates/contest/overview.html:8
+msgid "Announcements"
+msgstr "Duyurular"
+
+#: templates/contest/overview.html:24
+msgid "No announcements."
+msgstr "Duyuru bulunamadı."
+
+#: templates/contest/overview.html:30
+msgid "General information"
+msgstr "Genel Bilgi"
+
+#: templates/contest/overview.html:34
+#, python-format
+msgid "The contest started at %(start_time) and will end at %(stop_time)."
+msgstr "Yarışma %(start_time) tarihinde başladı ve %(stop_time) tarihinde bitecektir."
+
+#: templates/contest/overview.html:37
+#, python-format
+msgid "The contest will start at %(start_time) and will end at %(stop_time)."
+msgstr "Yarışma %(start_time) tarihinde başlayacak ve %(stop_time) tarihine kadar devam edecektir."
+
+#: templates/contest/overview.html:40
+msgid "The contest has ended."
+msgstr "Süre sona erdi :("
+
+#: templates/contest/overview.html:45
+msgid "Authentication required"
+msgstr "Giriş yapmanız gerekiyor"
+
+#: templates/contest/overview.html:46
+msgid "Please login to continue."
+msgstr "Devam etmek için lütfen giriş yapın."
+
+#: templates/contest/task.html:6
+msgid "Task information"
+msgstr "Soru bilgisi"
+
+#: templates/contest/task.html:8
+msgid "Download task statement"
+msgstr "Soru metnini indir"
+
+#: templates/contest/task.html:10
+#, python-format
+msgid "Time limit: %(seconds) second(s)."
+msgstr "Süre sınırı: %(seconds) saniye."
+
+#: templates/contest/task.html:11
+#, python-format
+msgid "Memory limit: %(mb) MB."
+msgstr "Hafıza limiti: %(mb) MB."
+
+#: templates/contest/task.html:16
+msgid "Submit a solution"
+msgstr "Çözüm gönder"
+
+#: templates/contest/task.html:20
+msgid "Submit"
+msgstr "Gönder"
+
+#: templates/contest/task.html:26
+msgid "Previous submissions"
+msgstr "Önceki çözümler"
+
+#: templates/contest/task.html:33
+#: templates/contest/task.html:42
+#, python-format
+msgid "Right now, you have %(tokens) token(s) available on this task."
+msgstr "In questo momento, hai %(tokens) gettoni disponibili per questo problema."
+
+#: templates/contest/task.html:35
+#: templates/contest/task.html:45
+#: templates/contest/task.html:54
+#, python-format
+msgid "You will receive a new token at %(gen_time)."
+msgstr "Riceverai un nuovo gettone alle %(gen_time)."
+
+#: templates/contest/task.html:37
+#: templates/contest/task.html:47
+#: templates/contest/task.html:59
+msgid "In the current situation, no more tokens will be generated."
+msgstr "Nella situazione attuale, nessun nuovo gettone verrà generato."
+
+#: templates/contest/task.html:43
+#, python-format
+msgid "But you have to wait until %(expiration_time) to use them."
+msgstr "Ma dovrai aspettare fino alle %(expiration_time) per usarli."
+
+#: templates/contest/task.html:52
+msgid "Right now, you do not have tokens available for this task."
+msgstr "In questo momento, non hai gettoni disponibili per questo problema."
+
+#: templates/contest/task.html:56
+#, python-format
+msgid "But you will have to wait until %(expiration_time) to use it."
+msgstr "Ma dovrai aspettare fino alle %(expiration_time) per usarlo."
+
+#: templates/contest/task.html:66
+msgid "No submissions found."
+msgstr "Yüklenmiş herhangi bir çözümünüz bulunmamaktadır."
+
+#: templates/contest/task.html:72
+msgid "Date"
+msgstr "Tarih"
+
+#: templates/contest/task.html:73
+msgid "Evaluation"
+msgstr "Değerlendirme"
+
+#: templates/contest/task.html:74
+msgid "Files"
+msgstr "Dosyalar"
+
+#: templates/contest/task.html:75
+msgid "Token used?"
+msgstr "Gettone usato?"
+
+#: templates/contest/task.html:86
+msgid "Compiling..."
+msgstr "Derleniyor..."
+
+#: templates/contest/task.html:91
+msgid "Compilation failed"
+msgstr "Derleme Hatası"
+
+#: templates/contest/task.html:93
+msgid "Evaluating..."
+msgstr "Çalıştırılıyor..."
+
+#: templates/contest/task.html:95
+msgid "Evaluated"
+msgstr "Çalıştırma tamamlandı"
+
+#: templates/contest/task.html:101
+msgid "Public testcases"
+msgstr "Açık girdiler"
+
+#: templates/contest/task.html:103
+msgid "Detailed feedback"
+msgstr "Ayrıntılı sonuç"
+
+#: templates/contest/task.html:108
+msgid "Outcome"
+msgstr "Sonuç"
+
+#: templates/contest/task.html:109
+msgid "Details"
+msgstr "Detaylar"
+
+#: templates/contest/task.html:119
+msgid "No specified testcases for partial feedback for this task."
+msgstr "Bu soruda herhangi bir girdi için geri dönüşüm bulunmamaktadır."
+
+#: templates/contest/task.html:124
+msgid "Compilation output"
+msgstr "Derleme çıktısı"
+
+#: templates/contest/task.html:136
+msgid "No"
+msgstr "Hayır"
+
+#: templates/contest/task.html:140
+msgid "Use!"
+msgstr "Kullan!"
+
+#: templates/contest/task.html:144
+msgid "Yes"
+msgstr "Evet"
+

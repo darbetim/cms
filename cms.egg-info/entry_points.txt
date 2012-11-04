@@ -1,0 +1,23 @@
+[console_scripts]
+cmsSpoolExporter = cmscontrib.SpoolExporter:main
+cmsYamlReimporter = cmscontrib.YamlReimporter:main
+cmsChecker = cms.service.Checker:main
+cmsYamlImporter = cmscontrib.YamlImporter:main
+cmsAdaptContest = cmstestsuite.AdaptContest:main
+cmsEvaluationService = cms.service.EvaluationService:main
+cmsWorker = cms.service.Worker:main
+cmsRankingWebServer = cmsranking.RankingWebServer:main
+cmsScoringService = cms.service.ScoringService:main
+cmsAddUser = cmscontrib.AddUser:main
+cmsContestExporter = cmscontrib.ContestExporter:main
+cmsComputeComplexity = cmscontrib.ComputeComplexity:main
+cmsMake = cmstaskenv.cmsMake:main
+cmsLogService = cms.service.LogService:main
+cmsResourceService = cms.service.ResourceService:main
+cmsContestWebServer = cms.server.ContestWebServer:main
+cmsContestImporter = cmscontrib.ContestImporter:main
+cmsRunTests = cmstestsuite.RunTests:main
+cmsTestFileCacher = cmstestsuite.TestFileCacher:main
+cmsReplayContest = cmstestsuite.ReplayContest:main
+cmsAdminWebServer = cms.server.AdminWebServer:main
+
