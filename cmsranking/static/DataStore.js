@@ -807,19 +807,19 @@ var DataStore = new function () {
     self.update_network_status = function (state) {
         if (state == 0) { // self.es.CONNECTING
             $("#ConnectionStatus_box").attr("data-status", "reconnecting");
-            $("#ConnectionStatus_text").text("You are disconnected from the server but your browser is trying to connect.");
+            $("#ConnectionStatus_text").text("Su an sistemle baglantiniz koptu fakat yeniden baglanmaya calisiyoruz.");
         } else if (state == 1) { // self.es.OPEN
             $("#ConnectionStatus_box").attr("data-status", "connected");
-            $("#ConnectionStatus_text").text("You are connected to the server and are receiving live updates.");
+            $("#ConnectionStatus_text").text("Su an sisteme bagli durumdasiniz ve canli sonuclari almaktasiniz.");
         } else if (state == 2) { // self.es.CLOSED
             $("#ConnectionStatus_box").attr("data-status", "disconnected");
-            $("#ConnectionStatus_text").html("You are disconnected from the server but you can <a onclick=\"DataStore.create_event_source();\">try to connect</a>.");
+            $("#ConnectionStatus_text").html("Su an sistemle baglantiniz koptu! Yeniden baglanmak icin <a onclick=\"DataStore.create_event_source();\">tiklayin</a>.");
         } else if (state == 3) { // "reload" event received
             $("#ConnectionStatus_box").attr("data-status", "outdated");
-            $("#ConnectionStatus_text").html("Your local data cannot be updated. Please <a onclick=\"window.location.reload();\">reload the page</a>.");
+            $("#ConnectionStatus_text").html("Sonuclar guncellenemiyor. Lutfen sayfayi <a onclick=\"window.location.reload();\">yenileyin</a>.");
         } else if (state == 4) { // an init failed
             $("#ConnectionStatus_box").attr("data-status", "init_error");
-            $("#ConnectionStatus_text").html("An error occurred while loading the data. Check your connection and <a onclick=\"window.location.reload();\">reload the page</a>.");
+            $("#ConnectionStatus_text").html("Sonuclar yuklenirken hata olustu. Internet baglantinizi kontrol edin ve <a onclick=\"window.location.reload();\">sayfayi yenileyin</a>.");
         }
     };
 

@@ -1176,3 +1176,8 @@ abbr {
     cursor: pointer;
     text-decoration: underline;
 }
+
+
+#LogoPanel img {
+	width: 200px;
+}

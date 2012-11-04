@@ -52,8 +52,8 @@ $(document).ready(function () {
                     <a class="brand" href="{{ url_root }}/">{{ contest.description }}</a>
 {% if current_user is not None %}
                     <p class="navbar-text pull-right">
-                        Logged in as <strong>{{ current_user.first_name }} {{ current_user.last_name }}</strong> <em>({{ current_user.username }})</em>
-                        <a class="btn btn-warning" href="{{ url_root }}/logout">Logout</a>
+                        Giriş yapılan kullanıcı : <strong>{{ current_user.first_name }} {{ current_user.last_name }}</strong> <em>({{ current_user.username }})</em>
+                        <a class="btn btn-warning" href="{{ url_root }}/logout">Çıkış</a>
                     </p>
 {% end %}
                 </div>
@@ -70,8 +70,8 @@ $(document).ready(function () {
     {% end %}
         <div class="login_container">
             <div class="login_box hero-unit">
-                <h1>Welcome</h1>
-                <p>Please log in</p>
+                <h1>Hosgeldiniz</h1>
+                <p>Lutfen Giris Yapiniz</p>
                 <form class="form-horizontal" action="{{ url_root }}/login" method="POST">
                     <input type="hidden" name="next" value="{{ handler.get_argument("next", "/") }}">
                     <fieldset>
@@ -103,7 +103,7 @@ $(document).ready(function () {
             <div class="row">
                 <div class="span3">
                     <h3 id="server_time_box">
-                        <span id="server_time_label">Server time:</span>
+                        <span id="server_time_label">Server Saati:</span>
                         <span id="server_time"></span>
                     </h3>
                     <h3 id="countdown_box">
@@ -156,6 +156,8 @@ $(document).ready(function () {
                     is released under the
                     <a href="http://www.gnu.org/licenses/agpl" rel="license noreferrer" target="_blank">GNU Affero General Public License</a>
                     .
+					<br>
+					Geliştirme ve Çeviri : <a href="http://cihadoge.com">Cihad ÖGE</a>
                     </span>
                 </div>
     {% block core %}{% end %}

@@ -10,11 +10,11 @@
 
 
 <div class="page-header">
-    <h1>Statement <small>for {{ task.title }} ({{ task.name }})</small></h1>
+    <h1>Soru Bilgileri : <small>{{ task.title }} ({{ task.name }})</small></h1>
 </div>
 
 
-<h2>Statement</h2>
+<h2>Soru Metni</h2>
 
 {% if len(task.statements) == 0 %}
 <div class="row statement no_statements">
@@ -73,7 +73,7 @@
 {% end %}
 
 
-<h2>Some details</h2>
+<h2>Soru Bilgileri</h2>
 
 <table class="table table-bordered table-nohover" style="table-layout: fixed">
     <colgroup>
@@ -107,7 +107,7 @@
 {% set compilation_commands = task_type.get_compilation_commands([x.filename for x in task.submission_format]) %}
 {% if compilation_commands is not None %}
 <tr>
-    <th rowspan="{{ len(compilation_commands) }}">Compilation commands</th>
+    <th rowspan="{{ len(compilation_commands) }}">Derleme Komutları</th>
     {% for i, (l, c) in enumerate(sorted(compilation_commands.iteritems())) %}
         {% if i > 0 %}
 </tr>
@@ -218,7 +218,7 @@
 
 
 {% if task.attachments != {} %}
-    <h2>{{ _("Attachments") }}</h2>
+    <h2>{{ _("Dosyalar") }}</h2>
     <div id="attachments">
         <ul>
     {% from cmscommon import MimeTypes %}

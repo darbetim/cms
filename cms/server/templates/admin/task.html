@@ -20,7 +20,8 @@ $("select[name=task_type]").change(showTaskTypeOption);
 {% from cms.grading.tasktypes.OutputOnly import OutputOnly %}
 {% from cms.grading.tasktypes.Communication import Communication %}
 {% from cms.grading.tasktypes.TwoSteps import TwoSteps %}
-{% set task_type_list = [Batch, OutputOnly, Communication, TwoSteps] %}
+{% from cms.grading.tasktypes.Interaktif import Interaktif %}
+{% set task_type_list = [Batch, OutputOnly, Communication, TwoSteps, Interaktif] %}
 
 <div class="core_title">
   <h1>{{ task.title }} ({{ task.name }})</h1>
