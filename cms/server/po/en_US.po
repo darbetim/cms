@@ -1,4 +1,4 @@
-# Italian translations for 0.1 package.
+  # Italian translations for 0.1 package.
 # Copyright (C) 2011 THE 0.1'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the 0.1 package.
 # Cihad OGE <cihadoge@gmail.com>, 2011.
@@ -336,3 +336,82 @@ msgstr "Kullan!"
 #: templates/contest/task.html:144
 msgid "Yes"
 msgstr "Evet"
+
+
+#: templates/contest/task.html:144
+msgid "Time limit"
+msgstr "Süre sınırı"
+
+
+#: templates/contest/task.html:144
+msgid "Task"
+msgstr "Soru Başlığı"
+
+
+#: templates/contest/task.html:144
+msgid "Name"
+msgstr "Soru Kodu"
+
+
+#: templates/contest/task.html:144
+msgid "Memory limit"
+msgstr "Hafıza sınırı"
+
+
+#: templates/contest/task.html:144
+msgid "Type"
+msgstr "Soru Tipi"
+
+
+#: templates/contest/task.html:144
+msgid "Task overview"
+msgstr "Soru bilgileri"
+
+
+#: templates/contest/task.html:144
+msgid "Statement"
+msgstr "Bilgi"
+
+
+#: templates/contest/task.html:144
+msgid "Submissions"
+msgstr "Çözüm Gönder"
+
+
+#: templates/contest/task.html:144
+msgid "second"
+msgstr "saniye"
+
+
+#: templates/contest/task.html:144
+msgid "Time left"
+msgstr "Kalan süre"
+
+
+#: templates/contest/task.html:144
+msgid "Date and time"
+msgstr "Tarih"
+
+
+#: templates/contest/task.html:144
+msgid "Status"
+msgstr "Durum"
+
+
+#: templates/contest/task.html:144
+msgid "Public score"
+msgstr "Bilinen puan"
+
+
+#: templates/contest/task.html:144
+msgid "Total score"
+msgstr "Toplam puan"
+
+
+#: templates/contest/task.html:144
+msgid "Download"
+msgstr "İndir"
+
+#: templates/contest/task.html:144
+msgid "Submission details"
+msgstr "Gönderi detayları"
